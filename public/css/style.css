@@ -1,0 +1,54 @@
+.greenClean{
+	background-color: #7CFC00;
+	width: 6em;
+	height: 6em;
+	border: 1;
+	z-index: -1;
+}
+.greenDark{
+	background-color: #556B2F;
+	width: 6em;
+	height: 6em;
+	border: 1;
+	z-index: -1;
+}
+.grassClean{
+	background-color: #808000;
+	width: 6em;
+	height: 6em;
+	border: 1;
+	z-index: -1;
+}
+.hillGreen{
+	background-color: #008000;
+	width: 6em;
+	height: 6em;
+	border: 1;
+	z-index: -1;
+}
+.hillRock{
+	background-color: #DAA520;
+	width: 6em;
+	height: 6em;
+	border: 1;
+	z-index: -1;
+}
+.cliff{
+	background-color: #2F4F4F;
+	width: 6em;
+	height: 6em;
+	border: 1;
+	z-index: -1;
+}
+.fort{
+	background-color: #708090;
+	width: 6em;
+	height: 6em;
+	border: 1;
+	z-index: -1;
+}
+
+
+.cellInside{
+	z-index: 1;
+}

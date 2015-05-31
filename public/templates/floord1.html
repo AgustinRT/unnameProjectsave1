@@ -1,0 +1,9 @@
+<tr ng-repeat="tmpl in blockCells">
+	<td ng-repeat="cells in tmpl.cells" ng-Class="cells.colorSchema">
+	<!-- <td ng-Class="cell1"> -->
+		<!-- <div ng-Class="cellInside"> -->
+		<div>
+			<p>{{tmpl.rowIndex + ' : ' + cells.cellIndex}}</p>
+		</div>
+	</td>
+<tr>

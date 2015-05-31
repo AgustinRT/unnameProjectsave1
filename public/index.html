@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="unname">
+	<HEAD>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</HEAD>
+	<body>
+		<section id="stage" ng-controller="stageCtrl">
+			<table id="ground">
+				<tbody ng-include="useTemplates.tableCells.url">
+
+				</tbody>
+			</table>
+		</section>
+		<!-- External Libs -->
+		<script src="./js/extLibs.js"></script>
+		<!-- Use Code -->
+		<script src="./js/mainls.js"></script>
+	</body>
+</html>

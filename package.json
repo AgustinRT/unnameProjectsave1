@@ -1,0 +1,53 @@
+{
+  "name": "unnameproject",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "tactic RPG builded in MEAN stack",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.12.3",
+    "grunt-cli": "latest",
+    "grunt-contrib-concat": "latest"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-dev-update": "^1.1.0",
+    "grunt-express-server": "^0.5.1",
+    "grunt-parallel":  "^0.4.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WorkLabBicho/unnameProjectsave1.git"
+  },
+  "keywords": [
+    "unname"
+  ],
+  "author": "Bicho",
+  "license": "(BSD)",
+  "dirs": {
+    "src": "public",
+    "srcIndex": "public/index.html",
+    "dest": "public/js",
+    "srcCtrl": "public/controllers",
+    "srcFT": "public/factories",
+    "srcLibs": "public/libs",
+    "srcTpl": "public/templates",
+    "mainFiles": [
+      "public/controllers/*.js",
+      "public/factories/*.js"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/WorkLabBicho/unnameProjectsave1/issues"
+  },
+  "homepage": "https://github.com/WorkLabBicho/unnameProjectsave1"
+}
